@@ -26,4 +26,11 @@ export const HeaderSubText = styled.h3`
     padding: 0;
     color: #fff;
     padding-top: 30px;
+    @media (max-width: 500px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 10px;
+    }
 `;
