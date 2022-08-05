@@ -6,6 +6,7 @@ import { Categories } from './data/categories';
 import { getCurrentMonth, filterListByMonth } from './helpers/dateFilter';
 import { TableArea } from './components/TableArea';
 import * as C from './App.styles';
+import { InfoArea } from './components/infoArea'
 
 const App = () => {
 const [list, setList] = useState(items);
@@ -19,11 +20,12 @@ const [currentMonth, setCurrentMonth] = useState(getCurrentMonth());
   return (
   <C.Container>
     <C.Header>
-      <C.HeaderText>Meu controle de despesas</C.HeaderText>
+      <C.HeaderText>Olá Usuario X</C.HeaderText>
+      <C.HeaderSubText>Bem Vindo ao MyWallet: Controle de desespesas pessoais! </C.HeaderSubText>
     </C.Header>
     <C.Body>
      {/* Área de informações*/}
-
+        <InfoArea currentMonth={ currentMonth }/>
       
     {/* Área de inserir informações*/}
 
