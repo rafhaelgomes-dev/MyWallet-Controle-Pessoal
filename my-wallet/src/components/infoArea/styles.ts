@@ -17,19 +17,29 @@ export const MonthArea = styled.div`
 `;
 
 export const MonthArrow = styled.div`
-    width: 100px;
+    width: 90px;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
+
+    @media (max-width: 680px) {
+      font-size: 12px;
+      width: 70px;
+    }
 
     @media (max-width: 540px) {
       font-size: 12px;
-      width: 80px;
+      width: 50px;
     }
 
     @media (max-width: 500px) {
       font-size: 10px;
-      width: 60px;
+      width: 40px;
+    }
+
+    @media (max-width: 350px) {
+      font-size: 10px;
+      width: 35px;
     }
 
     @media (max-width: 280px) {
