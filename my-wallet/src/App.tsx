@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Item } from './types/Item';
-import { Category } from './types/Category';
 import { items } from './data/items';
 import { Categories } from './data/categories';
 import { getCurrentMonth, filterListByMonth } from './helpers/dateFilter';
