@@ -1,9 +1,5 @@
-export const items = [
-  
-      {  
-          date: new Date(2022, 7, 15),
+import { Item } from '../types/Item';
 
-      }
+export const items: Item[] = [
 
-
-]
+];
