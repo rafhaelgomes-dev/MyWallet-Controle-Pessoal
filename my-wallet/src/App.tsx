@@ -7,6 +7,7 @@ import { TableArea } from './components/TableArea';
 import * as C from './App.styles';
 import { InfoArea } from './components/infoArea'
 import { InputArea } from './components/InputArea';
+import './styles.css'
 
 const App = () => {
 const [list, setList] = useState(items);
@@ -46,8 +47,8 @@ const [expense, setExpense] = useState(0)
   return (
   <C.Container>
     <C.Header>
-      <C.HeaderText>Olá Usuario X</C.HeaderText>
-      <C.HeaderSubText>Bem Vindo ao MyWallet: Controle de desespesas pessoais! </C.HeaderSubText>
+      <C.HeaderText>My Wallet</C.HeaderText>
+      <C.HeaderSubText>Controle de finanças pessoais</C.HeaderSubText>
     </C.Header>
     <C.Body>
      {/* Área de informações*/}
