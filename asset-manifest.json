@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MyWallet-Controle-Pessoal/static/css/main.a7a9531c.css",
-    "main.js": "/MyWallet-Controle-Pessoal/static/js/main.88735592.js",
+    "main.js": "/MyWallet-Controle-Pessoal/static/js/main.a3ded217.js",
     "static/js/787.a1c7f3c7.chunk.js": "/MyWallet-Controle-Pessoal/static/js/787.a1c7f3c7.chunk.js",
     "index.html": "/MyWallet-Controle-Pessoal/index.html",
     "main.a7a9531c.css.map": "/MyWallet-Controle-Pessoal/static/css/main.a7a9531c.css.map",
-    "main.88735592.js.map": "/MyWallet-Controle-Pessoal/static/js/main.88735592.js.map",
+    "main.a3ded217.js.map": "/MyWallet-Controle-Pessoal/static/js/main.a3ded217.js.map",
     "787.a1c7f3c7.chunk.js.map": "/MyWallet-Controle-Pessoal/static/js/787.a1c7f3c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7a9531c.css",
-    "static/js/main.88735592.js"
+    "static/js/main.a3ded217.js"
   ]
 }
