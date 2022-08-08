@@ -58,6 +58,7 @@ export const InputArea = ({ onAdd } : Props) => {
         <C.InputLabel>
           <C.InputTitle>Tipo</C.InputTitle>
           <C.Select value={category} onChange={e => setCategory(e.target.value)}>
+          <option selected>- Selecione -</option>
           <option value="food">Despesa</option>
           <option value="salary">Receita</option>
           </C.Select>
