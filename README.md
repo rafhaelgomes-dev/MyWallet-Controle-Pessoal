@@ -11,7 +11,7 @@ React.js, TypeScript, Styled Component.
 
 ## Utilização
 
-- Para clonar o projeto: `git clone git@github.com:joao-pasip/Project-BlogsAPI.git`.
+- Para clonar o projeto: `git@github.com:rafhaelgomes-dev/MyWallet-Controle-Pessoal.git`.
 
 - Para instalar as dependências basta rodar o comando `npm install` e acessar as funcionalidades da aplicação.
 
